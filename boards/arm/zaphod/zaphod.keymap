@@ -35,25 +35,29 @@
             bindings = <&kp ESC> ;
 
         };
-	
-	combo_del {
+
+                    combo_del {
             timeout-ms = <50>;
             key-positions = <11 12>;
             bindings = <&kp BKSP> ; 
 
         };
-	
-	combo_ent {
+        
+        			combo_ent {
         	timeout-ms = <50>;
         	key-positions = <16 17>;
         	bindings = <&kp RETURN> ;
-		
-	combo_sqt {
+
+        };
+
+					combo_sqt {
         	timeout-ms = <50>;
         	key-positions = <25 26>;
         	bindings = <&kp SQT> ;
-		
-	combo_min {
+
+        };
+
+       				combo_min {
         	timeout-ms = <50>;
         	key-positions = <21 22>;
         	bindings = <&kp MINUS> ;
